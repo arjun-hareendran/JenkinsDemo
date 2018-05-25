@@ -19,5 +19,13 @@ public class MathamaticalTest {
 		assertTrue(obj.add(4, 4) == 8);
 
 	}
+	
+	@Test
+	public void test3() {
+
+		Mathamatical obj = new Mathamatical();
+		assertTrue(obj.add(4, 4) == 9);
+
+	}
 
 }
